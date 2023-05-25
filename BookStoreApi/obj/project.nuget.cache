@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "8Nqs1iU/H+BDgZYNvst5H679fj5kjrFOezeAGh1yB4iU3ORAklvUOItkWm6hX/rlGdcm6GQeun1njYdYmy6Obw==",
+  "dgSpecHash": "Br8LEn1S2vmjitEh0HdZN++zJ7C+dK52UuGBonKDbQ18GLSgoC6AgCx49lCYpgJODhjHc8C52sJXrBwxYEZmvQ==",
   "success": true,
   "projectFilePath": "C:\\workspace\\aspnets\\BookStoreApi\\BookStoreApi\\BookStoreApi.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\carlo\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\awssdk.core\\3.7.106.42\\awssdk.core.3.7.106.42.nupkg.sha512",
+    "C:\\Users\\carlo\\.nuget\\packages\\awssdk.securitytoken\\3.7.103.4\\awssdk.securitytoken.3.7.103.4.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",

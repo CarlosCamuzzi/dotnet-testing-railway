@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "AWSSDK.Core/3.7.100.14": {
+      "AWSSDK.Core/3.7.106.42": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
@@ -11,10 +11,10 @@
           "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
         }
       },
-      "AWSSDK.SecurityToken/3.7.100.14": {
+      "AWSSDK.SecurityToken/3.7.103.4": {
         "type": "package",
         "dependencies": {
-          "AWSSDK.Core": "[3.7.100.14, 4.0.0)"
+          "AWSSDK.Core": "[3.7.106.42, 4.0.0)"
         },
         "compile": {
           "lib/netcoreapp3.1/AWSSDK.SecurityToken.dll": {}
@@ -309,15 +309,15 @@
     }
   },
   "libraries": {
-    "AWSSDK.Core/3.7.100.14": {
-      "sha512": "gnEgxBlk4PFEfdPE8Lkf4+D16MZFYSaW7/o6Wwe5e035QWUkTJX0Dn4LfTCdV5QSEL/fOFxu+yCAm55eIIBgog==",
+    "AWSSDK.Core/3.7.106.42": {
+      "sha512": "Xt6juOH7spjYSN7SoVIvDic2gDPxpTQy6ifXxDyBr0pg+qKCYpWAaHPqRS74rlUB6glpfxZJx+V1bkMETShLNg==",
       "type": "package",
-      "path": "awssdk.core/3.7.100.14",
+      "path": "awssdk.core/3.7.106.42",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "awssdk.core.3.7.100.14.nupkg.sha512",
+        "awssdk.core.3.7.106.42.nupkg.sha512",
         "awssdk.core.nuspec",
         "lib/net35/AWSSDK.Core.dll",
         "lib/net35/AWSSDK.Core.pdb",
@@ -334,16 +334,16 @@
         "tools/account-management.ps1"
       ]
     },
-    "AWSSDK.SecurityToken/3.7.100.14": {
-      "sha512": "dGCVuVo0CFUKWW85W8YENO+aREf8sCBDjvGbnNvxJuNW4Ss+brEU9ltHhq2KfZze2VUNK1/wygbPG1bmbpyXEw==",
+    "AWSSDK.SecurityToken/3.7.103.4": {
+      "sha512": "nK98TmjkADIsTMaIAAGMldZKoLv7oPg32X2dljPjujziu4TUfcirmToryeAYibH8g/I6LMD2Udi7gGIrbJ4Paw==",
       "type": "package",
-      "path": "awssdk.securitytoken/3.7.100.14",
+      "path": "awssdk.securitytoken/3.7.103.4",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "analyzers/dotnet/cs/AWSSDK.SecurityToken.CodeAnalysis.dll",
-        "awssdk.securitytoken.3.7.100.14.nupkg.sha512",
+        "awssdk.securitytoken.3.7.103.4.nupkg.sha512",
         "awssdk.securitytoken.nuspec",
         "lib/net35/AWSSDK.SecurityToken.dll",
         "lib/net35/AWSSDK.SecurityToken.pdb",
@@ -895,6 +895,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AWSSDK.SecurityToken >= 3.7.103.4",
       "MongoDB.Driver >= 2.19.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
@@ -938,6 +939,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "AWSSDK.SecurityToken": {
+            "target": "Package",
+            "version": "[3.7.103.4, )"
+          },
           "MongoDB.Driver": {
             "target": "Package",
             "version": "[2.19.0, )"
